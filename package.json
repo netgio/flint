@@ -1,0 +1,23 @@
+{
+  "name": "flint",
+  "version": "0.0.1",
+  "description": "Backend microservice to do stuff",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netgio/flint"
+  },
+  "author": "netgio",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/netgio/flint/issues"
+  }
+}
