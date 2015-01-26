@@ -6,7 +6,7 @@ port = process.env.PORT || 8080;
 
 app.get('/*', function(req, res) {
 	  res.statusCode = 200;
-	  return res.send('Hello Node!');
+	  return res.send('Hello Node! <br/><hr/>' + JSON.stringify(req.headers));
 	});
 
 
