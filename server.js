@@ -29,7 +29,7 @@ Object.keys(ifaces).forEach(function (ifname) {
 
 app.get('/*', function(req, res) {
 	  res.statusCode = 200;
-	  return res.send('Hello Sean! [' + process.pid + ']<br/><hr/>' 
+	  return res.send('Hello Deis! [' + process.pid + ']<br/><hr/>' 
 		+ ifacelist + '<br/><hr/>'
 		+ JSON.stringify(req.headers));
 	});
